@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>Just Gags</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="loginbody">
+ <section class="loginarea">
+    <div class="login">
+        <img width ="90" height="90" src="logo.jpg">
+		<h1>Login here</h1>
+		
+        <form action="POST">
+			<label for="uname">Username:</label><br>
+			<input class="formelements" type="text" id="uname" placeholder="Enter username"><br><br>
+			<label for="pass">Password:</label><br>
+			<input class="formelements"type="text" id="pass" placeholder="Enter password"><br><br>
+			<input class="button" type="submit" value="Submit">
+		</form>
+		
+		Dont have an account yet? Create one now!
+		
+		<input  class="button"  type="button" onclick="window.location.href='signup.html'" value="Sign up!"/>
+         
+    </div>
+</section>
+<h2>Modal Signup Form</h2>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+
+
+<button onclick="document.getElementById('id02').style.display='block'" >,modal test</button>
+<div id="id02" class="Modal">
+test modal content
+<br>
+<button onclick="document.getElementById('id02').style.display='none'" >,modal cancel</button>
+</div>
+
+
+
+<div id="id01" class="modal">
+
+  <!--<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>-->
+  
+  
+  
+  <form class="modal-content" action="/action_page.php">
+    
+	
+	<section class="loginarea">
+    <div >
+        <img width ="90" height="90" src="logo.jpg">
+		<h1>Login here</h1>
+		
+       <section id="div3">
+	
+		<img id="pho" src="defaultpic.png" width="70" height="70">   
+		<input type="file" id="ph" accept="image/*"/>   
+		<button type="button" onclick="picload1()">Upload</button>
+	</section>
+
+    <form action="profile.php" method="post">
+		<br>
+        <input type="text" name="uname"id="uname" size="50" placeholder="Enter username"><br><br>
+
+        <input type="text" id="pass" name="pass" size="50" placeholder="Enter password"><br><br>
+        <button class="btn">Submit</button>  
+</div>
+    
+    </form>
+	
+<div 
+           id="div" 
+           align="center" 
+           style="height: 200px;width: 500px;border-style: ridge;border-color: red">
+       </div>
+    </section>
+		
+	
+       <button onclick="document.getElementById('id01').style.display='none'" >Cancel</button>  
+    </div>
+</section>
+
+  </form>
+  
+</div>
+</body>
+
+
+</html>
